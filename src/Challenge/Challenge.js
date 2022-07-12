@@ -13,7 +13,7 @@ function Form({form, fetchDataForm}) {
     }, [fetchDataForm])
 
     // function sendValidation(form) {
-    //     let response = axios.post('https://challenge.keyboon.org/challenge/submit', {formResponse: formChallenge, keyChallenge}, {
+    //     let response = axios.post('https://api.challenge.keyboon.org/challenge/submit', {formResponse: formChallenge, keyChallenge}, {
     //         headers: {
     //             Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
     //         }
@@ -36,7 +36,7 @@ function Home() {
     const [keyChallenge, setKeyChallenge] = useState("")
 
     function fetchDataForm() {
-        let response = axios.get('https://challenge.keyboon.org/challenge/ressources', {
+        let response = axios.get('https://api.challenge.keyboon.org/challenge/ressources', {
             headers: {
                 Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
             }
