@@ -1,7 +1,5 @@
 import {TextField} from "@mui/material";
 
-//you are allowed to change the code below to style the project
-
 export default function GenerateForm({form}) {
 
     return form.map((elem) => {
