@@ -5,6 +5,9 @@ import axios from 'axios';
 import GenerateForm from './GenerateForm';
 
 
+//to validate the challenge
+//formResponse should be the original JSON object from the api with little modifications and the value field should be the value of the input
+//keyChallenge should be the keyChallenge from the api with little modifications
 
 function Form({form, fetchDataForm}) {
 
@@ -12,14 +15,14 @@ function Form({form, fetchDataForm}) {
         fetchDataForm()
     }, [fetchDataForm])
 
-    // function sendValidation(form) {
+    // function sendValidation(formChallenge, keyChallenge) {
     //     let response = axios.post('https://api.challenge.keyboon.org/challenge/submit', {formResponse: formChallenge, keyChallenge}, {
     //         headers: {
     //             Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
     //         }
     //     })
-    //     if (response.data.tokenValidation)
-    //         return response.tokenValidation //this one
+    //     if (response.data.message)
+    //         return response.message //this one
     //
     // }
 
@@ -36,6 +39,7 @@ function Home() {
     const [keyChallenge, setKeyChallenge] = useState("")
 
     function fetchDataForm() {
+
         let response = axios.get('https://api.challenge.keyboon.org/challenge/ressources', {
             headers: {
                 Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
