@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Route, Navigate} from "react-router-dom";
 import {ScopedCssBaseline} from "@mui/material";
 import Challenge from "./Challenge/Challenge";
 import Handle404 from "./DoNotMove/Handle404";
-// import Challenge from "./Challenge/Challenge";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
