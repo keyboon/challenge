@@ -25,6 +25,6 @@ Not to offend him too much, there are some weird structures not to move
 
 Be careful, the back is sometimes broken...
 
-Once this project is fixed, please push it to a private repository and give @laurentdelteil and @lepadd the rights on github
+Once this project is fixed, please push it to a private repository and give @LaurentDelteil and @lepadd the rights on github
 
 Of course, the code must not be shared outside the company! 
