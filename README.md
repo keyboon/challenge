@@ -2,7 +2,6 @@
 
 
 
-
 The trainee left us this code, it is catastrophic
 
 We think he never heard of design in his life...
@@ -24,6 +23,13 @@ Not to offend him too much, there are some weird structures not to move
 * We can modify the structure to add style and visual consistency only
 
 Be careful, the back is sometimes broken...
+
+## Goal
+
+You have to send the following keys to the api
+* formResponse: should be the original JSON object from the api with little modifications and the value field should be the value of the input
+* keyChallenge: should be the keyChallenge from the api with little modifications
+# 
 
 Once this project is fixed, please push it to a private repository and give @LaurentDelteil and @lepadd the rights on github
 
