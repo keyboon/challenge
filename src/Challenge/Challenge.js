@@ -40,7 +40,7 @@ function Home() {
 
     function fetchDataForm() {
 
-        let response = axios.get('https://api.challenge.keyboon.org/challenge/ressources', {
+        let response = axios.get('https://api.challenge.keyboon.org/challenge/resources', {
             headers: {
                 Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
             }
