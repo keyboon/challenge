@@ -6,7 +6,7 @@ The trainee left us this code, it is catastrophic
 
 We think he never heard of design in his life...
 
-Can we take this quick project and have a qualitative code ?
+Can we handle this quick project in a few hours and have a qualitative code?
 
 ## Rules
 Not to offend him too much, there are some weird structures not to move
@@ -31,6 +31,8 @@ You have to send the following keys to the api
 * keyChallenge: should be the keyChallenge from the api with little modifications
 # 
 
-Once this project is fixed, please push it to a private repository and give @LaurentDelteil and @lepadd the rights on github
+Once this project is fixed, please push it to a private repository and give @LaurentDelteil the rights on github
 
 Of course, the code must not be shared outside the company! 
+
+Happy hacking!
