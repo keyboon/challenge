@@ -20,7 +20,7 @@ Not to offend him too much, there are some weird structures not to move
 
 ### Obviously
 * The goal is not to bypass the way the challenge is built to get the final token
-* The code must be without warning
+* The code must be without warning (and without eslint-disable line or similar)
 * We can modify the structure to add style and visual consistency only
 
 Be careful, the back is sometimes broken...
