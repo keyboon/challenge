@@ -21,8 +21,11 @@ function Form({form, fetchDataForm}) {
     //             Authorization: `Bearer /*YOUR_TOKEN_HERE*/`
     //         }
     //     })
-    //     if (response.data.message)
-    //         return response.data.message //this one
+    //     if (response.data.flag)  {
+    //         console.log(response.data.message)
+    //         return response.data.flag //this one must be sent on the challenge website
+    //     }
+    //
     //
     // }
 
@@ -56,7 +59,6 @@ function Home() {
         form[0].label = "Must be empty"
         setForm(form)
     }, [keyChallenge, form])
-
 
 
     return (
