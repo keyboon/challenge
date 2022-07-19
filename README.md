@@ -37,3 +37,6 @@ Once this project is fixed, please push it to a private repository and give @Lau
 Of course, the code must not be shared outside the company! 
 
 Happy hacking!
+
+
+##### feel free to open an issue to report a bug or ask a question
